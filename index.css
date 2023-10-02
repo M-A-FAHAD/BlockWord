@@ -1,0 +1,275 @@
+/* index page code start heare */
+.body-color{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+/* sidebar code heare  */
+.side-bar{
+    position: absolute;
+    list-style: none;
+    width: 150px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-top: 121px; 
+}
+.side-bar-go{
+    display: none;
+}
+.sidebar-li{
+    display: block;
+    padding-top: 15px;
+    text-decoration: none;
+    color: rgba(24, 9, 9, 0.616);   
+}
+/* this is outside of the side bar */
+.sidebar-icon-one{
+   height: 20px;
+   width: 20px;
+   border-radius: 2px;
+}
+@media (min-width:450px){
+     .sidebar-icon-one{
+        position: absolute;
+        left: 20px;
+     }
+}
+.sidebar-icon-one:hover{
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+}
+.sidebar-icon-one-go{
+    display: none;
+}
+@media (min-width:1005px) {
+    .sidebar-icon-one{
+        display: none;
+    }
+}
+/* this is inside the side bar */
+.sidebar-icon-two{
+   height: 30px;
+   width: 30px;
+   margin: 5px 5px 0px 80px;
+}
+.sidebar-icon-two:hover{
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+
+/* header part start heare */
+.dark-mode-color{
+     color: rgba(245, 245, 245, 0.863);
+}
+.dark-mode-background-color{
+    background-color: white;
+}
+.fahad{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+}
+.fahad-image{
+    height: 60px;
+    width: 60px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+.fahadvai{
+    color: wheat;
+}
+.header-main-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+/*nav bar strt heare*/
+.navbar-ul{
+   display: flex;
+   list-style: none;
+   padding-top: 15px; 
+}
+@media (min-width: 0px) and (max-width: 1005px) {
+    .navbar-li{
+      display: none;
+    }
+    .second-li{
+        display: none;
+    }
+  }
+.navbar-li{
+    list-style: none;
+    padding: 0px 30px 0px 0px;
+    text-decoration: none;
+    color: rgb(146, 146, 146);  
+}
+/*log section*/
+.log-section{
+    padding-top: 10px;
+}
+/*button start heare*/
+.btn-login,.btn-signup{
+     background-color: rgba(0, 0, 0, 0.76);
+     color:  white;
+     border-radius: 5px;
+     border: 1px solid olive;
+}
+@media (max-width:450px){
+    #fahadvai{
+        font-size: 20px;
+        width: 15px;
+    }
+    #lifeisfun{
+          font-size: 10px;
+        }
+    }  
+    
+    
+/* dark mode csss */
+
+.darkmode-color{
+   color: rgba(255, 255, 255, 0.836);
+}
+/*header part end heare*/
+
+/*second part start heare*/
+.second-section-main-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px 15px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.274);
+}
+.second-ul{
+    display: flex;
+    list-style: none;
+}
+.second-li{
+    padding: 0px 30px 0px 0px;
+    color: rgb(146, 146, 146);
+}
+.scarch-bar{
+    padding-left: 80px;
+}
+/*second part end heare*/
+
+/*third section start heare*/
+.third-section-main-div{
+        text-align: center;
+        padding: 0% 15% 0% 15%;
+}
+/*third part end heare*/
+
+/* project section start heare */
+.project-section-heading{
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0px 30px 0px; 
+    color: #9e9d9d;
+    font-style: italic;
+    
+}
+.projects-main-div{
+   display: flex;
+   justify-content: center;
+}
+@media(max-width:800px){
+  .projects-main-div{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+        padding: 0% 50% 0% 50%;
+  }
+}
+@media(max-width:650px){
+  .projects-main-div{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         padding: 0% 50% 0% 50%;
+  }
+}
+.project-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 3px 2px 4px rgba(116, 97, 97, 0.219);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    
+  }
+  
+  .project-box img {
+    border-radius: 8px;
+    height: 200px;
+    margin: 0 auto 20px;
+    width: 100%;
+  }
+  
+  .project-box h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .project-box p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .project-box a {
+    background-color: rgba(55, 173, 219, 0.795);
+    border-radius: 8px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.1s ease;
+  }
+  
+  .project-box a:hover {
+    background-color: #066eb333;
+    color: rgba(255, 255, 255, 0.829);
+    
+  }
+  
+/* project section end heare */
+
+/*footer part code heare*/
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icons a:hover img {
+  filter: brightness(70%);
+}
+/* index part code end heare */
